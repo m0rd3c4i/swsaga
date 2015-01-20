@@ -1,0 +1,209 @@
+%YAML 1.2
+---
+
+Human:
+    playable: true
+    languages:
+        - Basic
+    traits:
+        - size: medium
+        - speed: 6
+        - skill: 1
+        - feat: 1
+
+Bothan:
+    playable: true
+    abilities:
+        {Dex: 2,
+         Con: -2}
+    languages:
+        - Bothese
+        - Basic
+    traits:
+        - size: medium
+        - speed: 6
+        - will: 2
+        - feat:
+            - Skill Focus (Gather Information)
+
+Cerean:
+    playable: true
+    abilities:
+        {Int: 2,
+         Wis: 2,
+         Dex: -2}
+    languages:
+        - Cerean
+        - Basic
+    traits:
+        - size: medium
+        - speed: 6    
+        - Intuitive Initiative
+        - feats:
+            - Skill Focus (Initiative)
+
+Duros:
+    playable: true
+    abilities:
+        {Dex: 2,
+         Int: 2,
+         Con: -2}
+    languages:
+        - Durese
+        - Basic
+    traits:
+        - size: medium
+        - speed: 6
+        - Expert Pilot
+
+Ewok:
+    playable: true
+    abilities:
+        {Dex: 2,
+         Str: -2}
+    languages:
+        - Ewokese  # only spoken
+    traits:
+        - size: small
+        - speed: 4
+        - Primitive
+        - Scent
+        - Sneaky
+        - feats:
+            - Skill Focus (Survival)
+
+Gamorrean:
+    playable: true
+    abilities:
+        {Str: 2,
+         Dex: -2,
+         Int: -2}
+    languages:
+        - Gamorrean  # only spoken; can only speak this language
+        - Basic
+    traits:
+        - size: medium
+        - speed: 6
+        - Primitive
+        - Great Fortitude
+        - feats:
+            - Damage Threshold
+
+Gungan:
+    playable: true
+    abilities:
+        {Dex: 2,
+         Int: -2,
+         Cha: -2}
+    languages:
+        - Gunganese
+        - Basic
+    traits:
+        - size: medium
+        - speed: 6  # swim speed 4
+        - Expert Swimmer
+        - Hold Breath
+        - Lightning Reflexes
+        - Low-Light Vision
+        - Weapon Familiarity
+
+Hutt:
+    playable: false
+    languages:
+        - Huttese
+
+Ithorian:
+    playable: true
+    abilities:
+        {Wis: 2,
+         Cha: 2,
+         Dex: -2}
+    languages:
+        - Ithorese
+    traits:
+        - size: medium
+        - speed: 6
+        - Iron will
+        - Bellow
+        - Survival Instinct
+        - feats:
+            - Skill Focus (Knowledge [life sciences])
+
+Kel Dor:
+    playable: true
+    abilities:
+        {Dex: 2,
+         Wis: 2,
+         Con: -2}
+    languages:
+        - Kel Dor
+
+Mon Calamari:
+    playable: true
+    abilities:
+        {Int: 2,
+         Wis: 2,
+         Con: -2}
+    languages:
+        - Mon Calamarian
+
+Quarren:
+    playable: true
+    abilities:
+        {Con: 2,
+         Wis: -2,
+         Cha: -2}
+    languages:
+        - Quarrenese
+
+Rodian:
+    playable: true
+    abilities:
+        {Dex: 2,
+         Wis: -2,
+         Cha: -2}
+    languages:
+        - Rodese
+
+Sullustan:
+    playable: true
+    abilities:
+        {Dex: 2,
+         Con: -2}
+    languages:
+        - Sullustese
+
+Trandoshan:
+    playable: true
+    abilities:
+        {Str: 2,
+         Dex: -2}
+    languages:
+        - Dosh
+
+Twi'lek:
+    playable: true
+    abilities:
+        {Cha: 2,
+         Wis: -2}
+    languages:
+        - Ryl
+
+Wookiee:
+    playable: true
+    abilities:
+        {Str: 4,
+         Con: 2,
+         Dex: -2,
+         Wis: -2,
+         Cha: -2}
+    languages:
+        - Shyriiwook
+
+Zabrak:
+    playable: true
+    languages:
+        - Zabrak
+
+
+...
